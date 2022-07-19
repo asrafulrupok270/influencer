@@ -47,6 +47,7 @@ body{
     font-size: 40px;
     font-weight: 700;
 }
+ 
 .text button{
     background-color: rgb(196, 45, 110);
     color: white;
@@ -54,6 +55,7 @@ body{
     padding: 8px 28px;
     border-radius: 20px;
     border: 1px solid rgb(196, 45, 110);
+    text-transform: capitalize;
 }
 .busisnessman img{
  
@@ -118,6 +120,7 @@ body{
     text-decoration: none;
     color: rgb(200, 18, 130);
 }
+ 
 .section-two-footer .fa-arrow{
     color: aquamarine;
 }
@@ -128,6 +131,10 @@ body{
     margin-left: 165px;
     margin-right: 199px;
   
+
+}
+.fa-arrow-right{
+    color:white;
 }
 .img-info{
     margin-left: 50px;
@@ -175,4 +182,7 @@ footer{
 }
 .social,.insta,.twiter ,.facebook{
     margin-right: 20px;
+}
+.icons{
+    color: rgb(200, 18, 130);
 }
