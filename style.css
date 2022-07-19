@@ -83,8 +83,41 @@ body{
 .second-section{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    row-gap: 20px;
+    row-gap: 30px;
+    column-gap: 30px;
     align-content: center;
     justify-content: center;
+    margin-left: 210px;
+    margin-right: 210px;
 
+}
+.box{
+    box-shadow: 0px 0px 12px  rgb(191, 174, 174);
+    padding: 10px;
+    border-radius: 5px;
+}
+.box .ratting img{
+    text-align: center;
+
+}
+.fa-solid{
+    color: rgba(205, 123, 8, 0.615);
+}
+.collection{
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.section-two-footer{
+    text-align: right;
+    margin-right: 120px;
+}
+.section-two-footer a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: rgb(200, 18, 130);
+}
+.section-two-footer .fa-arrow{
+    color: aquamarine;
 }
