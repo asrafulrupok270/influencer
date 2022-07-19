@@ -1,0 +1,90 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+ 
+body{
+    font-family: 'Poppins', sans-serif; 
+    background-color: #E6E6E6;
+   
+}
+
+/*---- nav ---- */
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 120px;
+    margin-left: 30px;
+ 
+}
+.menu-list a{
+    text-decoration: none;
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: black;
+   
+}
+.menu-list .influencer a {
+    font-size: 25px;
+    font-weight: 700;
+
+}
+.menu-list .fa-solid{
+    color: brown;
+    font-size: 20px;
+}
+/* ---------camera section ------- */
+
+.first-section{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 45px;
+ 
+}
+.text h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.text button{
+    background-color: rgb(196, 45, 110);
+    color: white;
+    font-weight: 700;
+    padding: 8px 28px;
+    border-radius: 20px;
+    border: 1px solid rgb(196, 45, 110);
+}
+.busisnessman img{
+ 
+    margin-right: 40px;
+   
+ 
+ 
+}
+.busisnessman{
+   /* border-top: 1px solid gray;
+   border-bottom: 1px solid gray; */
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-top: 1px solid gray;
+   border-bottom: 1px solid gray;
+   margin-bottom: 50px;
+   
+  
+}
+.busisnessman hr{
+    color: grey;
+    font-weight: 700;
+    font-size: 20px;
+}
+.second-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 20px;
+    align-content: center;
+    justify-content: center;
+
+}
